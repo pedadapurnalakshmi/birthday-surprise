@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday chelli!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <canvas id="hearts"></canvas>
+<!-- Welcome screen -->
+<div id="welcome-screen">
+  <h1>🎉 Happy Birthday, Love! 🎉</h1>
+  <p>You’re the sunshine of our lives ☀️</p>
+  <button onclick="startSurprise()">Start Surprise 💖</button>
+  <button onclick="playMusic()">🔊 Play Music</button>
+</div>
+
+<!-- Main content hidden at first -->
+<div id="main-content" style="display: none;">
+  <!-- Your slideshow, wish section, etc., here -->
+  
+  <!-- Example -->
+  <div class="slideshow">...</div>
+  <div class="wish-section">...</div>
+</div>
+
+<!-- Background music -->
+<audio id="bg-music" loop>
+  <source src="music.mp3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  <div class="container">
+    <h1>Happy Birthday, my first ever bestestt friend!!</h1>
+    <p>You light up every room. Here’s to a magical day!I love you always than you dreamt off.you are my stress burster,my strength and my risk bearer .The support you gave me made me enjoy a lot more.
+      Always proud of you babe.</p>
+
+    <!-- Image Slideshow with Caption -->
+    <div class="slideshow">
+      <img id="slideshow-img" src="img1.jpeg" alt="Memories"/>
+      <p id="caption">You’ve always been my safe place. I’m so lucky to have you.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img2.jpeg" alt="Memories"/>
+      <p id="caption">From childhood fights to late-night talks—thank you for being you.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img3.jpeg" alt="Memories"/>
+      <p id="caption">Your success should be the happiest sound.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img4.jpeg" alt="Memories"/>
+      <p id="caption">you should deserve all you wanted and may god shower you all the love and success.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img5.jpeg" alt="Memories"/>
+      <p id="caption">You inspire me every day with your strength and love.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img6.jpeg" alt="Memories"/>
+      <p id="caption">My scoldings are my love towards you.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img7.jpeg" alt="Memories"/>
+      <p id="caption">Even in silence, we understand each other..</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img8.jpeg" alt="Memories"/>
+      <p id="caption">You make my life colorful and bright.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img9.jpeg" alt="Memories"/>
+      <p id="caption">There’s no bond like ours—unbreakable and beautiful.</p>
+    </div>
+    <div class="slideshow">
+      <img id="slideshow-img" src="img10.jpeg" alt="Memories"/>
+      <p id="caption">Happy Birthday to the best sister ever! I love you</p>
+    </div>
+<div class="wish-section">
+  <h2>🎈 Leave a Wish </h2>
+  <input type="text" id="wish-input" placeholder="Type your wish here" />
+  <button onclick="addWish()">Add Wish</button>
+   <ul id="wish-list"></ul>
+</div>
+
+  <!-- Container for heart animation -->
+  <div id="heart-container"></div>
+</div>
+
+  <script src="script.js"></script>
+  <script src="hearts.js"></script>
+</body>
+</html>
